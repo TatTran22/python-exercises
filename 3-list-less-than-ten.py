@@ -20,5 +20,5 @@ if num <= 0:
 
 for index, value in enumerate(a):
     if int(value) < num:
-        b.insert(len(b), value)
+        b.append(value)
 print(b)
