@@ -22,8 +22,7 @@ def game(player1: str, player2: str) -> int:
         return 2
 
 
-startNewGame = True
-while startNewGame:
+while True:
     newGame = str(input('Do you want to start new game? (y/n) ')).lower()
     if newGame != 'y':
         break
